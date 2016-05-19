@@ -5,7 +5,8 @@ script: mvn clean package install
 
 deploy:
   provider: releases
-  api_key: "9fb412e4efc25affd89e21fa3f385d967c090a3a"
+  user: "ahmedrgb1"
+  password: "badr1234"
   file: "/home/travis/build/ahmedrgb1/game-of-life/gameoflife-web/target/gameoflife.war"
   skip_cleanup: true
   on:  

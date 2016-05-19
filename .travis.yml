@@ -9,9 +9,8 @@ deploy:
   provider: heroku
   api_key: c81b4eb8-1bb7-42af-8f08-077cf5434c48
     secure: a3b68365-8300-49d8-a955-4e1273c53b06
-  app: travis-gof11
+  app: travis-gof111
   skip_cleanup: true
-
-
+  
   on:
     all_branches: true

@@ -9,6 +9,3 @@ deploy:
   password: "badr1234"
   file: "/home/travis/build/ahmedrgb1/game-of-life/gameoflife-web/target/gameoflife.war"
   skip_cleanup: true
-  on:  
-    tags: false
-    all_branches: true

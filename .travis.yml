@@ -6,7 +6,7 @@ script: mvn clean package install
 deploy:
   provider: heroku
   api_key:
-    secure: "a3b68365-8300-49d8-a955-4e1273c53b06"
+    secure: a3b68365-8300-49d8-a955-4e1273c53b06
   app: travis-gof
   skip_cleanup: true
 
